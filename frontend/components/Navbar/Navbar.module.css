@@ -1,0 +1,75 @@
+.MobileNavbar {
+  top:0;
+  left:0;
+  position: absolute; 
+  right: inherit;
+  z-index: 1100; 
+  width: 300px; 
+  height: 100%; 
+  transition: all 0.5s ease 0s; 
+  transform: translate3d(-100%, 0px, 0px);}
+
+.activ {
+  top:0;
+  left:0;
+  position: absolute; 
+  right: inherit; 
+  z-index: 1100; 
+  width: 300px; 
+  height: 100%; 
+  transition: all 0.5s ease 0s;
+  background-color: rgb(29, 29, 29);
+}
+
+/* .transformation {
+  width: 100vw;
+  height: 100vh;
+  transition-property: width, height;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+} */
+
+
+  /* transition-property: width;
+  transition-duration: .5s;
+  transition-timing-function: ease-out; */
+
+  /* -webkit-font-smoothing: antialiased;
+  transform-origin: -100% 0%;
+  transform: translate(0%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0); */
+  
+  /* @apply bg-gray-700
+    absolute
+    h-screen
+    w-screen
+    top-0
+    left-0
+    p-4
+    antialiased
+    origin-top-left
+    -translate-x-full
+    -translate-y-0
+    delay-1000; */
+  /* @screen lg {
+    @apply border-0
+      pt-10
+      pb-8;
+  } */
+
+
+/* .mobileNavbar {
+  position: absolute;
+  top: 0rem;
+  width: 100vw;
+  height: 100vh;
+  left: 0rem;
+  padding: 1rem;
+} */
+
+/*
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+*/

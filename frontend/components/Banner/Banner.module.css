@@ -1,0 +1,15 @@
+.fwContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color:white;
+  font-weight: 500;
+  font-size:2em;
+  width:6rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2em;
+}
