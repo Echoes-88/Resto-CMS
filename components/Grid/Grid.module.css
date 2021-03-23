@@ -1,0 +1,47 @@
+.gridContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gridElement {
+  background-color: white;
+  padding: 2rem;
+  width: 25%;
+  box-shadow: 10px 10px 29px -12px rgba(0,0,0,0.37);
+  margin: 1rem;
+}
+
+@media (max-width:600px) {
+
+  .gridElement {
+    width: 70%;
+  }
+
+  .cardImg {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* .gridElement {
+    width: 100%;
+  } */
+}
+
+@media (max-width:900px) {
+
+  .gridContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gridElement {
+    width: 43%;
+  }
+}
+
+@media (max-width:600px) {
+
+  .gridElement {
+    width: 80%;
+  }
+}

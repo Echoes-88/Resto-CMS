@@ -1,0 +1,46 @@
+.featureContainer {
+  max-width: 1100px;
+  text-align: center;
+}
+.productsContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.product {
+  padding: 1rem;
+  width: 30%;
+  position: relative;
+}
+
+.product img {
+  width: 100%;
+  opacity: 1;
+  transition: opacity .5s ease-out;
+}
+
+.product img:hover {
+  opacity: 0.9;
+}
+
+.productPromo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d31212;
+  padding: 0.3rem 0.8rem;
+  color: white;
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 700px) {
+  .productsContainer {
+    flex-direction: column;
+  }
+
+  .product {
+    width: 80%;
+  }
+}

@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("/font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("/font/RobotoCondensed-Regular.ttf");
+  font-weight: 400;
+}
+
+  h1, h2 {
+    font-family: RobotoBold;
+  }
+
+  p, a {
+    font-family: MontserratRegular;
+  }
+  
+  h2 {
+    font-size:1.5em;
+    font-weight:bold;
+    margin: 1rem 0;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+
+  .align-items-center {
+    align-items: center;
+  }
+
+  .block {
+    margin: 2rem auto;
+    max-width: 1100px;
+  }
+
+  .two-column {
+    width:50%;
+    max-width:600px;
+  }
+
+  .linebreak {
+    margin:1rem 0;
+  }
+  
+  .backline {
+    margin:0;
+  }
+
+  .strong {
+    font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+  .grid {
+    display:block;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .fullHeight {
+    height: 100%;
+  }
+
+  /* Blocks */
+  .textImg {
+    min-height: 18rem;
+  }
+
+    /* color */
+    .redColor {
+      color: red;
+    }
+    .greenColor {
+      color: #25a545;
+    }
+
+  /* background */
+  .greyBg {
+    background-color: #f0f0f0;
+  }

@@ -1,0 +1,147 @@
+.navbarMainContainer {
+  background-color: #e9e9e9;
+}
+
+.navbarContainer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underContainer {
+  position: relative;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.otherContainer {
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+  flex: 1 1 0%;
+}
+
+.menu {
+  /* margin-left: 1.5rem; */
+  display: block;
+  width: 100%;
+}
+
+
+.menuElt {
+  color:#272727;
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 1.25rem;
+  border-radius: 0.375rem;
+  font-weight: normal;
+  transition: font-size 0.5s ease-in-out;
+  width: 10rem;
+  text-align: center;
+}
+
+.menuElt:hover {
+/* background-color: rgb(48, 48, 48); */
+font-weight: 900;
+font-size:1.1em;
+}
+
+
+.current {
+  font-weight: 900;
+  font-size:1.1em;
+}
+
+.mobileButtonContainer {
+  display: none;
+}
+
+.mobileButtonContainer button {
+  height: 2rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url('/icon/mobileMenu.png');
+  transition: background-image 0.2s ease-in-out;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.mobileButtonContainer button:hover {
+  background-image: url('/icon/mobileMenu2.png');
+}
+
+/* MOBILE NAVBAR */
+
+@media screen and (max-width: 650px) {
+  .mobileButtonContainer {
+    display: flex;
+    position: absolute;
+    align-items: center;
+  }
+
+  .otherContainer {
+    display: none;
+  }
+}
+
+.MobileNavbar {
+  top:0;
+  left:0;
+  position: absolute; 
+  right: inherit;
+  z-index: 1100; 
+  width: 300px; 
+  height: 100%; 
+  transition: all 0.5s ease 0s; 
+  transform: translate3d(-100%, 0px, 0px);
+}
+
+.MobileNavbarElts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.MobileNavbarElts a {
+  border-top: 1px solid white;
+}
+
+.MobileNavbarElts a:hover {
+  background-color: #000000;
+}
+
+.MobileNavbarElts a:last-child {
+  border-bottom: 1px solid white;
+}
+
+.activ {
+  top:0;
+  left:0;
+  position: absolute; 
+  right: inherit; 
+  z-index: 1100; 
+  width: 300px; 
+  height: 100%; 
+  transition: all 0.5s ease 0s;
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+.closeMobileNav {
+  background-color: red;
+}

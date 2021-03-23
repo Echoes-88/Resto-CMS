@@ -1,0 +1,32 @@
+ .footerContainer {
+   background-color: #1d1d1d;
+   height: 6rem;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .footerElement {
+   border-right: 1px solid white;
+   padding: 0 2rem;
+ }
+
+ .footerElement:last-of-type {
+  border: 0px;
+  padding-right: 0;
+}
+ 
+@media (max-width:600px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .footerElement {
+      border: 0px;
+      padding: 0rem;
+    }
+
+
+  }

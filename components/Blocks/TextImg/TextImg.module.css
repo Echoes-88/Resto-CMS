@@ -1,0 +1,18 @@
+.textImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.image {
+  width: 45%;
+  /* max-height: 16rem; */
+  object-fit: cover;
+  max-width: 20rem;
+}
+
+.textBlock {
+  width: 40%;
+  margin-left:2rem;
+}
